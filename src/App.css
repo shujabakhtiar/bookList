@@ -1,5 +1,9 @@
 .App {
+  background-color: #E5E5E5;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content:center ;
 }
 
 .App-logo {
@@ -26,6 +30,50 @@
 
 .App-link {
   color: #61dafb;
+}
+.BookList{
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  flex-direction: column;
+  position: relative;
+}
+.Card{
+  width: 225px;
+  height: 380px;
+  background-color: #E2DDDD;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.Card-Img{
+  width: 202px;
+  min-height: 235px;
+  background-color: white;
+  margin-top: 17px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+.Pagination{
+  background-color: #e5dfdf;
+  border-radius: 20px;
+  position: fixed;
+  bottom: 10px;
+  padding: 5px;
+  box-shadow: #645b5b;
 }
 
 @keyframes App-logo-spin {
