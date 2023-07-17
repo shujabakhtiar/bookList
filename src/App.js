@@ -2,7 +2,7 @@ import React from 'react';
 import Styles from './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import BookList from './components//BookList/BookList.tsx';
+import BookList from './components/BookList/BookList.tsx';
 import store from './store/store.ts';
 
 class App extends React.Component {

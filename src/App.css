@@ -57,6 +57,10 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
+  
+}
+.Card:hover{
+  cursor: pointer;
 }
 .Card-Img{
   width: 202px;
@@ -75,7 +79,19 @@
   padding: 5px;
   box-shadow: #645b5b;
 }
-
+.Modal{
+  display: flex;
+  flex-direction: column;
+}
+.ModalTitle{
+  height: 105px;
+}
+.Modal >p{
+  margin: 8px;
+}
+.ModalDescription{
+  margin-top: 10px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
