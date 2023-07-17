@@ -24,6 +24,5 @@ describe('App Component', () => {
       </Provider>
     );
     
-    // You can add further assertions or assertions based on your specific requirements
   });
 });
