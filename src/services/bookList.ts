@@ -1,4 +1,4 @@
-import axios from 'axios';
+const axios = require('axios').default;
 
 const API_URL = 'http://nyx.vima.ekt.gr:3000/api/books';
 
